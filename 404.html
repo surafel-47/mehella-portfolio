@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</meta>
+
+    <!-- Immediate redirect -->
+    <meta http-equiv="refresh" content="0; url=/index.html" />
+
+    <!-- JS fallback (more reliable) -->
+    <script>
+      window.location.replace("/index.html");
+    </script>
+  </head>
+  <body>
+    <!-- Fallback for very old browsers / JS disabled -->
+    <noscript>
+      <p>
+        Page not found.
+        <a href="/index.html">Go to homepage</a>
+      </p>
+    </noscript>
+  </body>
+</html>
